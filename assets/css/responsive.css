@@ -1,0 +1,252 @@
+
+
+
+/*****************************
+    desktop/leptop layout.
+*****************************/
+
+@media only screen and (min-width:991px) and (max-width:1199px) {
+
+.hero-img {
+    height: 700px; 
+}
+
+
+}
+
+
+
+
+/****************************
+    Tablet Layout
+*****************************/
+
+@media only screen and (min-width:768px) and (max-width:990px) {
+    .navbar-toggler {
+        background-color: #fff;
+        position: absolute;
+        right: 15px;
+        top: 12px;
+    }
+    .header-area ul {
+        position: relative;
+    }
+    .navbar-collapse {
+        background: #0273CB;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .header-area {
+        position: relative;
+        padding: 10px 0;
+        background: #0273CB;
+    }
+    .hero-text {
+        margin-top: 0;
+    }
+    .hero-wrap {
+        padding: 250px 0 100px;
+    }
+    .hero-img {
+        width: 100%;
+        height: 750px;
+    }
+
+    .about-text {
+        margin: 50px 0 0;
+        margin-top: 0;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .single-testimonial-item {
+        padding: 0 20px;
+    }
+    .contact-title {
+        margin-bottom: 0;
+    }
+    .footer-content:after {
+        display: none;
+    }
+    .footer-content {
+        padding-top: 80px;
+    }
+
+    .footer-img {
+        height: 450px;
+    }
+    .header-area ul.nav.navbar-nav li a.boxed-btn {
+	    display: inline-block;
+	    margin-top: 20px;
+	    margin-left: 20px;
+	}
+
+}
+
+
+
+
+
+
+
+/***********************************
+    normal/small mobile layout.
+************************************/
+
+@media (max-width: 575.98px) {
+    .navbar-toggler {
+        background-color: #fff;
+        position: absolute;
+        right: 15px;
+        top: 12px;
+    }
+    .header-area ul {
+        position: relative;
+    }
+    .navbar-collapse {
+        background: #0273CB;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .header-area {
+        position: relative;
+        padding: 10px 0;
+        background: #0273CB;
+    }
+    .hero-text {
+        margin-top: 0;
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .hero-graph {
+        display: none;
+    }
+    .hero-wrap {
+        padding: 180px 0 100px;
+    }
+    .hero-img {
+        width: 100%;
+        height: 550px;
+    }
+
+    .about-text {
+        margin: 50px 0 0;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+    .about-area img {
+        display: block;
+        margin: 0 auto;
+    }
+    .about-text h2:after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .single-testimonial-item {
+        padding: 0 20px;
+    }
+    .contact-title {
+        margin-bottom: 0;
+        margin-top: 60px;
+    }
+
+    .footer-content:after {
+        display: none;
+    }
+    .footer-content {
+        padding-top: 80px;
+        padding-left: 100px;
+    }
+    .footer-img {
+        height: 100%;
+    }
+    .header-area ul.nav.navbar-nav li a.boxed-btn {
+	    display: inline-block;
+	    margin-top: 20px;
+	    margin-left: 20px;
+	}
+}
+
+
+
+
+
+
+
+/*****************************
+    wide mobile layout
+******************************/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .navbar-toggler {
+        background-color: #fff;
+        position: absolute;
+        right: 15px;
+        top: 12px;
+    }
+    .header-area ul {
+        position: relative;
+    }
+    .navbar-collapse {
+        background: #0273CB;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .header-area {
+        position: relative;
+        padding: 10px 0;
+        background: #0273CB;
+    }
+    .hero-text {
+        margin-top: 0;
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .about-text h2:after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .hero-wrap {
+        padding: 180px 0 100px;
+    }
+    .hero-img {
+        width: 100%;
+        height: 600px;
+    }
+
+    .about-text {
+        margin: 50px 0 0;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+    .about-area img {
+        display: block;
+        margin: 0 auto;
+    }
+    .single-testimonial-item {
+        padding: 0 20px;
+    }
+    .contact-title {
+        margin-bottom: 0;
+        margin-top: 60px;
+    }
+
+    .footer-content:after {
+        display: none;
+    }
+    .footer-content {
+        padding-top: 80px;
+        padding-left: 100px;
+    }
+    .footer-img {
+        height: 100%;
+    }
+
+    .header-area ul.nav.navbar-nav li a.boxed-btn {
+	    display: inline-block;
+	    margin-top: 20px;
+	    margin-left: 20px;
+	}
+}
